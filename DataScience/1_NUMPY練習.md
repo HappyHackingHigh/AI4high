@@ -1,7 +1,5 @@
-#
-
+# NumPy
 ```
-NumPy練習
 https://zh.wikipedia.org/wiki/NumPy
 NumPy是Python語言的一個擴充程式庫。
 支援高階大量的維度陣列與矩陣運算，
@@ -30,7 +28,8 @@ import numpy as np
 np1 = np.array([1, 2, 3])
 np2 = np.array([3, 4, 5])
 ```
-
+# ndarray 的關鍵屬性
+```
 # ndarray 的關鍵屬性是維度（ndim）、形狀（shape）和數值類型（dtype）
 
 # 顯示ndarray 的關鍵屬性
@@ -38,11 +37,11 @@ np2 = np.array([3, 4, 5])
 np1 = np.array([1, 2, 3])
 print(np1.ndim, np1.shape, np1.dtype) 
 # 1 (3,) int64 => 一維陣列, 三個元素, 資料型別
-```
+
 
 # 創建陣列3*4全為 0 的陣列
 # 創建陣列3*3全為 1 的陣列
-
+```
 ## 使用numpy.arange(start, stop, step, dtype) 創建陣列
 ```
 x = np.arange(5)  
