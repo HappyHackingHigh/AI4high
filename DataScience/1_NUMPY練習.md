@@ -14,8 +14,8 @@ NumPy為開放原始碼並且由許多協作者共同維護開發。
 Numpy 底層以 C 和 Fortran 語言實作，所以能快速操作多重維度的陣列。
 ```
 ### 官方網址
-```
-NumPy User Guide使用手冊  https://docs.scipy.org/doc/numpy/user/index.html
+
+![NumPy User Guide使用手冊](https://docs.scipy.org/doc/numpy/user/index.html)
 NumPy Reference參考手冊   https://docs.scipy.org/doc/numpy/reference/index.html
 ```
 ### 參考資料:
