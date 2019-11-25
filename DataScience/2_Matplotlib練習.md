@@ -1,6 +1,7 @@
 # matplotlib
 
 >matplotlib:整個套件
+
 >pyplot:matplotlib套件的一個重要模組
 ```
 # 更多參數說明,請參閱底下無範例
