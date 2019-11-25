@@ -51,10 +51,13 @@ np2 = np.array([3, 4, 5])
 np1 = np.array([1, 2, 3])
 print(np1.ndim, np1.shape, np1.dtype) 
 # 1 (3,) int64 => 一維陣列, 三個元素, 資料型別
-
-
-# 創建陣列3*4全為 0 的陣列
-# 創建陣列3*3全為 1 的陣列
+```
+```
+x = np.array([[1, 2, 3], [4, 5, 6]], np.int32)
+x
+type(x)
+x.shape
+x.dtype
 ```
 ## 使用numpy.arange() 創建陣列
 ```
@@ -99,8 +102,48 @@ print (a)
 ```
 
 # 2.單一陣列運算
+```
+延伸閱讀:Array manipulation routines
+https://docs.scipy.org/doc/numpy/reference/routines.array-manipulation.html
+```
 
-## 2.1.reshape函數==>改變函數
+## copyto() 函數
+```
+Syntax[語法] : numpy.copyto(destination, source)
+Return[函數回傳] : Return copy of an array
+```
+```
+資料來源
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.copyto.html#numpy.copyto
+https://www.geeksforgeeks.org/python-numpy-copyto-function/
+```
+```
+# import the important module in python 
+import numpy as np 
+		
+# make an array with numpy 
+des = np.array([1, 2, 3]) 
+src = [4, 5, 6] 
+		
+# applying numpy.copyto() method 
+np.copyto(des, src) 
+
+print(des) 
+```
+```
+# import the important module in python 
+import numpy as np 
+		
+# make an array with numpy 
+des = np.array([[1, 2, 3], [4, 5, 6]]) 
+src = [[4, 5, 6], [7, 8, 9]] 
+		
+# applying numpy.copyto() method 
+np.copyto(des, src) 
+
+print(des) 
+```
+## 2.1.reshape函數==>改變函數形狀Changing array shap
 ```
 # 將底下np3改成2*3及3*2陣列
 np3 = np.array([1, 2, 3, 4, 5, 6])
@@ -109,6 +152,8 @@ np3.dtype##答案為何?
 np4 = np3.reshape([2, 3])
 print(np4.ndim, np4.shape, np4.dtype) ##答案為何?
 np4.dtype##答案為何?
+
+np4
 ```
 ## 2.2.改變陣列型別（bool、int、float、string）的運算
 ```
@@ -155,4 +200,8 @@ np3 = np.array([1, 2, 3, 4, 5, 6])
 np3 = np3.reshape([2, 3])
 print(np3.sum(axis=1)) ##答案為何?
 print(np3.sum(axis=0)) ##答案為何?
+```
+## Single Array Iteration
+```
+
 ```
