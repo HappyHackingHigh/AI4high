@@ -203,5 +203,7 @@ print(np3.sum(axis=0)) ##答案為何?
 ```
 ## Single Array Iteration
 ```
-
+a = np.arange(6).reshape(2,3)
+for x in np.nditer(a):
+   print(x, end=' ')
 ```
