@@ -42,7 +42,10 @@ print(np1.ndim, np1.shape, np1.dtype)
 # 創建陣列3*4全為 0 的陣列
 # 創建陣列3*3全為 1 的陣列
 ```
-## 使用numpy.arange(start, stop, step, dtype) 創建陣列
+## 使用numpy.arange() 創建陣列
+```
+numpy.arange(start, stop, step, dtype)
+```
 ```
 x = np.arange(5)  
 print (x) ##答案為何?
@@ -54,7 +57,8 @@ print (x) ##答案為何?
 ## 使用numpy.linspace創建等差數列
 ```
 #  numpy.linspace 函數用於創建一個一維陣列，陣列是一個等差數列構成的
-#  np.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None)
+#  np.linspace(start, stop, 
+#       num=50, endpoint=True, retstep=False, dtype=None)
 
 a = np.linspace(1,10,10)
 print(a)
@@ -96,7 +100,7 @@ np4.dtype##答案為何?
 ```
 np5 = np3.astype('int64')
 np3.dtype  ##答案為何?
-
+```
 ## 2.3.陣列索引與切片運算
 ```
 np13 = np.array([1, 2, 3, 4, 5, 6])
