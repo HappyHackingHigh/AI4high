@@ -207,3 +207,27 @@ a = np.arange(6).reshape(2,3)
 for x in np.nditer(a):
    print(x, end=' ')
 ```
+
+# Universal Functions
+```
+Fast Element-Wise Array Functions（通用函數：快速點對點陣列函數）
+universal function, 或 ufunc, 是用來在ndarray中實現element-wise操作的。
+
+ufunc==>把一些簡單的函數做快速的向量化封裝
+
+很多ufuncs都是點對點的變換，像sqrt或exp
+```
+```
+import numpy as np
+arr = np.arange(100)
+arr
+
+np.sqrt(arr)
+np.exp(arr)
+```
+```
+亂數產生兩組資料並列出其最大的
+x = np.random.randn(8)
+y = np.random.randn(8)
+np.maximum(x, y)
+```
