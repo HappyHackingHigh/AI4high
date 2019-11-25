@@ -15,9 +15,10 @@ Numpy 底層以 C 和 Fortran 語言實作，所以能快速操作多重維度�
 ```
 ### 官方網址
 
-![NumPy User Guide使用手冊](https://docs.scipy.org/doc/numpy/user/index.html)
-NumPy Reference參考手冊   https://docs.scipy.org/doc/numpy/reference/index.html
-```
+[NumPy User Guide使用手冊](https://docs.scipy.org/doc/numpy/user/index.html)
+
+[NumPy Reference參考手冊](https://docs.scipy.org/doc/numpy/reference/index.html)
+
 ### 參考資料:
 ```
 https://blog.techbridge.cc/2017/07/28/data-science-101-numpy-tutorial/
