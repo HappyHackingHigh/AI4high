@@ -155,6 +155,17 @@ np4.dtype##答案為何?
 
 np4
 ```
+## Array shape manipulation==>Flattening and Transpose
+```
+ar=np.array([np.arange(1,6),np.arange(10,15)]); 
+ar
+ar.T
+ar.T.ravel()
+```
+```
+ar2=np.array([np.arange(1,6),np.arange(10,15)]); 
+ar2.ravel()
+```
 ## 2.2.改變陣列型別（bool、int、float、string）的運算
 ```
 np5 = np3.astype('int64')
