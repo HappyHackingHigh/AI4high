@@ -47,23 +47,22 @@ obj3
 ```
 # II.DataFrame
 
+```
+data = {'state': ['Ohio', 'Ohio', 'Ohio', 'Nevada', 'Nevada', 'Nevada'], 
+        'year': [2000, 2001, 2002, 2001, 2002, 2003], 
+        'pop': [1.5, 1.7, 3.6, 2.4, 2.9, 3.2]}
+
+frame = pd.DataFrame(data)
+
+frame
+```
 
 
 ```
+如果指定一列的話，會自動按列排序：
 
+pd.DataFrame(data, columns=['year', 'state', 'pop'])
 ```
 ```
-
-```
-```
-
-```
-```
-
-```
-```
-
-```
-```
-
+https://nbviewer.jupyter.org/github/LearnXu/pydata-notebook/blob/master/Chapter-05/5.1%20Introduction%20to%20pandas%20Data%20Structures%EF%BC%88pandas%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%89.ipynb
 ```
