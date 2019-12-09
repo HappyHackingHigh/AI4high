@@ -24,6 +24,21 @@ High-performance data manipulation and analysis in Python
 ```
 ### 下載資料
 ```
+https://rich01.com/what-is-sp500-index/
+
+S&P500指數，中文是標準普爾500指數或史坦普500，
+英文全名是(Standard & Poor’s 500, S&P 500 index)
+
+這是美國股票市場最古老也最具代表性的一個指數之一，
+也是最多投資人會參考的指數，
+目前全球股票型ETF之中，資產規模最大的2檔ETF也都是追蹤S&P500指數。
+
+蘋果公司: AAPL
+微軟公司: MSFT
+```
+```
+標普500的資料與每月股票資料
+
 !wget https://raw.githubusercontent.com/PacktPublishing/Learning-Pandas-Second-Edition/master/data/sp500.csv
 !wget https://raw.githubusercontent.com/PacktPublishing/Learning-Pandas-Second-Edition/master/data/omh.csv
 ```
@@ -219,4 +234,10 @@ omh.std()
 ```
 # covariance of MSFT vs AAPL
 omh.MSFT.cov(omh.AAPL)
+```
+# 隨堂測驗
+```
+A班同學的資安課程分數如下:60,59,61,62,58,60
+B班同學的資安課程分數如下:60,54,66,71,49,60
+計算每班的描述統計
 ```
