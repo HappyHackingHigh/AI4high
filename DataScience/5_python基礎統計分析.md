@@ -153,11 +153,11 @@ pd.Series([1, 2, 3, 4]).cumprod()
 
 # calculate a cumulative sum
 pd.Series([1, 2, 3, 4]).cumsum()
-
+```
 # 8.3 描述統計學descriptive statistics
-```
 
-```
+
+
 
 ### get summary statistics for the stock data
 ```
