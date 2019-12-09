@@ -17,6 +17,10 @@ C.人工智慧與資訊安全
 ```
 # 推薦教科書
 ```
+[系列活動] 手把手打開Python資料分析大門
+https://www.slideshare.net/tw_dsconf/python-83977705
+```
+```
 Pandas作者親自撰寫的好書
 Python資料分析 第二版
 Python for Data Analysis, 2nd Edition
@@ -45,6 +49,25 @@ Learning pandas - Second Edition:
 High-performance data manipulation and analysis in Python
 作者： Michael Heydt  譯者： 陳建宏
 博碩出版社 2019/08/22
+https://github.com/PacktPublishing/Learning-Pandas-Second-Edition
+```
+```
+Python 統計分析 
+(An Introduction to Statistics with Python: With Applications in the Life Sciences)
+[奧地利]托馬斯·哈斯爾萬特
+人民郵電出版社   出版日期:2018-12-01
+
+https://github.com/thomas-haslwanter/statsintro_python
+
+第三部分統計建模
+第11章線性回歸模型150 
+11.1線性相關150 
+11.1.1相關係數150 
+11.1.2秩相關151 
+11.2一般線性回歸模型152 
+11.2.1例子1：簡單線性回歸153 
+11.2.2例子2：二次方擬合153 
+11.2.3決定係數154
 ```
 ```
 Python Data Science Handbook
