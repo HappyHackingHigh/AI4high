@@ -14,9 +14,11 @@ https://blog.techbridge.cc/2019/07/26/how-to-use-taiwan-salary-data-to-do-python
 ```
 """
 資料來源：
-08_Numeric and Statistical Methods.ipynb
+Pandas資料分析實戰：使用Python進行高效能資料處理及分析
+Learning pandas - Second Edition: 
+High-performance data manipulation and analysis in Python
 
-# Configuring pandas
+08_Numeric and Statistical Methods.ipynb
 """
 
 ```
