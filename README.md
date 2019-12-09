@@ -53,7 +53,112 @@ Learning pandas - Second Edition:
 High-performance data manipulation and analysis in Python
 作者： Michael Heydt  譯者： 陳建宏
 博碩出版社 2019/08/22
+https://www.tenlong.com.tw/products/9789864343898?list_name=srh
 https://github.com/PacktPublishing/Learning-Pandas-Second-Edition
+
+Chapter 1：pandas及資料分析
+Chapter 2：啟動並運行pandas
+
+===============================================================
+Chapter 3：用 [序列 Series] 表示 單變數資料Representing Univariate Data with the Series
+3.1 設定pandas
+3.2 建立序列
+3.3 .index及.values屬性
+3.4 序列的大小及形狀
+3.5 在序列建立時指定索引
+3.6 頭、尾、選取
+3.7 以索引標籤或位置提取序列值
+3.8 把序列切割成子集合
+3.9 利用索引標籤實現對齊
+3.10 執行布林選擇
+3.11 將序列重新索引
+3.12 原地修改序列
+===============================================================
+Chapter 4：用[資料框 DataFrame]表示表格及多變數資料 Representing Tabular and Multivariate Data with the DataFrame
+4.1 設定pandas
+4.2 建立資料框物件
+4.3 存取資料框的資料
+4.4 利用布林選擇選取列
+4.5 跨越行與列進行選取
+
+
+Chapter 5：操控[資料框DataFrame]結構Manipulating DataFrame Structure
+5.1 設定pandas
+5.2 重新命名行
+5.3 利用[]及.insert()增加新行
+5.4 利用擴展增加新行
+5.5 利用串連增加新行
+5.6 改變行的順序
+5.7 取代行的內容
+5.8 刪除行
+5.9 附加新列
+5.10 列的串連
+5.11 經由擴展增加及取代列
+5.12 使用.drop()移除列
+5.13 利用布林選擇移除列
+5.14 使用切割移除列
+===============================================================
+Chapter 6：索引資料Indexing Data
+6.1 設定pandas
+6.2 索引的重要性
+6.3 pandas 的索引型別
+6.4 使用索引
+6.5 階層式索引
+
+Chapter 7：類別資料 Categorical Data
+7.1 設定pandas
+7.2 建立類別物件
+7.3 重新命名類別
+7.4 附加新類別
+7.5 移除類別
+7.6 移除未使用的類別
+7.7 設定類別
+7.8 類別物件的敘述性資訊
+7.9 學校成績轉換
+
+Chapter 8：數值與統計方法
+8.1 設定pandas
+8.2 對pandas物件執行算術運算
+8.3 在pandas物件上執行統計程序
+===============================================================
+Chapter 9：存取資料
+9.1 設定pandas
+9.2 處理CSV及文字/表格格式的資料
+9.3 讀寫Excel格式資料
+9.4 讀寫JSON檔案
+9.5 從網站讀取HTML資料
+9.6 讀寫HDF5格式檔案
+9.7 存取網站上的CSV資料
+9.8 讀寫SQL資料庫
+9.9 從遠端資料服務讀取資料
+
+Chapter 10：整理資料
+10.1 設定pandas
+10.2 資料整理的意涵
+10.3 如何處理 [資料遺漏missing data]
+10.4 處理 [重複資料duplicate data]
+10.5 資料轉換
+
+Chapter 11：結合、關聯以及重塑資料Combining, Relating, and Reshaping Data
+11.1 設定pandas
+11.2 [串連Concatenating] 幾個物件的資料
+11.3 合併與連結資料Merging and joining data
+11.4 資料值與索引的[樞紐操作Pivoting]
+11.5 堆疊與解堆疊Stacking and unstacking
+11.6 堆疊資料帶來的效能好處
+
+Chapter 12：資料聚合Data Aggregation
+12.1 設定pandas
+12.2 拆開、套用、結合（SAC）模式The split, apply, and combine (SAC) pattern
+12.3 範例資料
+12.4 拆開資料
+12.5 套用聚合函數、轉換以及過濾
+12.6 轉換分組資料
+12.7 過濾分組資料
+===============================================================
+Chapter 13：時間序列建模
+Chapter 14：視覺化
+Chapter 15：歷史股價分析
 ```
 ```
 Python 統計分析 
